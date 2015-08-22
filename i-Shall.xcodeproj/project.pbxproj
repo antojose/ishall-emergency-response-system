@@ -83,14 +83,9 @@
 		F0A4E6CA1B8878E10018AC5F /* i-Shall */ = {
 			isa = PBXGroup;
 			children = (
-				F0A4E6CF1B8878E10018AC5F /* AppDelegate.h */,
-				F0A4E6D01B8878E10018AC5F /* AppDelegate.m */,
-				F0A4E6D51B8878E10018AC5F /* ViewController.h */,
-				F0A4E6D61B8878E10018AC5F /* ViewController.m */,
-				F0A4E6D81B8878E10018AC5F /* Main.storyboard */,
+				F0A4E6F51B8890150018AC5F /* Classes */,
+				F0A4E6F41B8889800018AC5F /* Extensions */,
 				F0A4E6DB1B8878E10018AC5F /* Images.xcassets */,
-				F0A4E6DD1B8878E10018AC5F /* LaunchScreen.xib */,
-				F0A4E6D21B8878E10018AC5F /* i_Shall.xcdatamodeld */,
 				F0A4E6CB1B8878E10018AC5F /* Supporting Files */,
 			);
 			path = "i-Shall";
@@ -120,6 +115,67 @@
 				F0A4E6E91B8878E10018AC5F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0A4E6F41B8889800018AC5F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		F0A4E6F51B8890150018AC5F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F0A4E6F81B8896710018AC5F /* Model */,
+				F0A4E6F71B8896680018AC5F /* Views */,
+				F0A4E6F61B8896490018AC5F /* controller */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F0A4E6F61B8896490018AC5F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F0A4E6FA1B8897050018AC5F /* ViewControllers */,
+				F0A4E6F91B8896F00018AC5F /* AppDelegate */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		F0A4E6F71B8896680018AC5F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0A4E6D81B8878E10018AC5F /* Main.storyboard */,
+				F0A4E6DD1B8878E10018AC5F /* LaunchScreen.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F0A4E6F81B8896710018AC5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0A4E6D21B8878E10018AC5F /* i_Shall.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F0A4E6F91B8896F00018AC5F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F0A4E6CF1B8878E10018AC5F /* AppDelegate.h */,
+				F0A4E6D01B8878E10018AC5F /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F0A4E6FA1B8897050018AC5F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0A4E6D51B8878E10018AC5F /* ViewController.h */,
+				F0A4E6D61B8878E10018AC5F /* ViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
