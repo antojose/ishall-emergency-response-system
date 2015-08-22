@@ -7,13 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CoreDataController.h"
 
 @interface SignInViewController : UIViewController{
      IBOutlet UITextField *txt_username;
      IBOutlet UITextField *txt_password;
      IBOutlet UIButton *btn_signin;
-     IBOutlet UIButton *btn_forgotPasword;
      IBOutlet UIButton *btn_signup;
+    CoreDataController * coreDataControll;
 }
 
 @end

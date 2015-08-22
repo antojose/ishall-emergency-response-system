@@ -9,11 +9,19 @@
 #import "SignInViewController.h"
 #import "HomeTabBarController.h"
 
+
 @implementation SignInViewController
 -(IBAction)signInAction:(id)sender{
-    HomeTabBarController * tabbar = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"HomeTabbar"];
-    tabbar.selectedIndex = 0;
-    [self.navigationController pushViewController:tabbar animated:YES];
+    if ([coreDataControll signInActionForUserName:txt_username.text andPassword:txt_password.text]) {
+        HomeTabBarController * tabbar = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"HomeTabbar"];
+        tabbar.selectedIndex = 0;
+        [self.navigationController pushViewController:tabbar animated:YES];
+        
+        
+    }else{
+        [[[UIAlertView alloc] initWithTitle:@"iShall" message:@"Username or password incorrect." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil] show];
+    }
+    
     
 }
 @end

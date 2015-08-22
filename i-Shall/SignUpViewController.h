@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CoreDataController.h"
 
-@interface SignUpViewController : UIViewController
+@interface SignUpViewController : UIViewController<UIAlertViewDelegate>{
+    
+    IBOutlet UITextField *txt_username;
+    IBOutlet UITextField *txt_password;
+    IBOutlet UITextField *txt_mobile;
+    IBOutlet UIButton * btn_signup;
+    CoreDataController * coreDataControll;
+}
 
 @end

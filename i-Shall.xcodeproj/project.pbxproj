@@ -20,6 +20,7 @@
 		F0A4E70D1B88A0290018AC5F /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4E70C1B88A0290018AC5F /* NotificationViewController.m */; };
 		F0A4E7111B88A0690018AC5F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4E7101B88A0690018AC5F /* ProfileViewController.m */; };
 		F0A4E7181B88ACE80018AC5F /* HomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4E7171B88ACE80018AC5F /* HomeTabBarController.m */; };
+		F0A4E71D1B88D8DE0018AC5F /* CoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4E71C1B88D8DE0018AC5F /* CoreDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		F0A4E7101B88A0690018AC5F /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		F0A4E7161B88ACE80018AC5F /* HomeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTabBarController.h; sourceTree = "<group>"; };
 		F0A4E7171B88ACE80018AC5F /* HomeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTabBarController.m; sourceTree = "<group>"; };
+		F0A4E71B1B88D8DE0018AC5F /* CoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataController.h; sourceTree = "<group>"; };
+		F0A4E71C1B88D8DE0018AC5F /* CoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +155,7 @@
 		F0A4E6F61B8896490018AC5F /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				F0A4E7191B88D89E0018AC5F /* CoreDataConterller */,
 				F0A4E6FA1B8897050018AC5F /* ViewControllers */,
 				F0A4E6F91B8896F00018AC5F /* AppDelegate */,
 			);
@@ -249,6 +253,15 @@
 				F0A4E7171B88ACE80018AC5F /* HomeTabBarController.m */,
 			);
 			name = HomeTabBar;
+			sourceTree = "<group>";
+		};
+		F0A4E7191B88D89E0018AC5F /* CoreDataConterller */ = {
+			isa = PBXGroup;
+			children = (
+				F0A4E71B1B88D8DE0018AC5F /* CoreDataController.h */,
+				F0A4E71C1B88D8DE0018AC5F /* CoreDataController.m */,
+			);
+			name = CoreDataConterller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,6 +370,7 @@
 				F0A4E6D11B8878E10018AC5F /* AppDelegate.m in Sources */,
 				F0A4E7061B889EE60018AC5F /* SignUpViewController.m in Sources */,
 				F0A4E6CE1B8878E10018AC5F /* main.m in Sources */,
+				F0A4E71D1B88D8DE0018AC5F /* CoreDataController.m in Sources */,
 				F0A4E7181B88ACE80018AC5F /* HomeTabBarController.m in Sources */,
 				F0A4E7021B889E9C0018AC5F /* HomeViewController.m in Sources */,
 				F0A4E6D41B8878E10018AC5F /* i_Shall.xcdatamodeld in Sources */,
