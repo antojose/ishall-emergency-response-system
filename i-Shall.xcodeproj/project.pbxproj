@@ -19,6 +19,7 @@
 		F0A4E7061B889EE60018AC5F /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4E7051B889EE60018AC5F /* SignUpViewController.m */; };
 		F0A4E70D1B88A0290018AC5F /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4E70C1B88A0290018AC5F /* NotificationViewController.m */; };
 		F0A4E7111B88A0690018AC5F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4E7101B88A0690018AC5F /* ProfileViewController.m */; };
+		F0A4E7181B88ACE80018AC5F /* HomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4E7171B88ACE80018AC5F /* HomeTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		F0A4E70C1B88A0290018AC5F /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
 		F0A4E70F1B88A0690018AC5F /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		F0A4E7101B88A0690018AC5F /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		F0A4E7161B88ACE80018AC5F /* HomeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTabBarController.h; sourceTree = "<group>"; };
+		F0A4E7171B88ACE80018AC5F /* HomeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +187,7 @@
 		F0A4E6FA1B8897050018AC5F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				F0A4E7121B88AB270018AC5F /* HomeTabBar */,
 				F0A4E70E1B88A0340018AC5F /* Notification */,
 				F0A4E7071B889F3D0018AC5F /* Profile */,
 				F0A4E7031B889EA20018AC5F /* SignUp */,
@@ -236,6 +240,15 @@
 				F0A4E70C1B88A0290018AC5F /* NotificationViewController.m */,
 			);
 			name = Notification;
+			sourceTree = "<group>";
+		};
+		F0A4E7121B88AB270018AC5F /* HomeTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F0A4E7161B88ACE80018AC5F /* HomeTabBarController.h */,
+				F0A4E7171B88ACE80018AC5F /* HomeTabBarController.m */,
+			);
+			name = HomeTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,6 +357,7 @@
 				F0A4E6D11B8878E10018AC5F /* AppDelegate.m in Sources */,
 				F0A4E7061B889EE60018AC5F /* SignUpViewController.m in Sources */,
 				F0A4E6CE1B8878E10018AC5F /* main.m in Sources */,
+				F0A4E7181B88ACE80018AC5F /* HomeTabBarController.m in Sources */,
 				F0A4E7021B889E9C0018AC5F /* HomeViewController.m in Sources */,
 				F0A4E6D41B8878E10018AC5F /* i_Shall.xcdatamodeld in Sources */,
 			);
