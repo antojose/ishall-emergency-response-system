@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Sign In View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SignInViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -110,10 +110,10 @@
             </objects>
             <point key="canvasLocation" x="573" y="316"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="KMV-Md-2pu">
             <objects>
-                <viewController id="0gt-Ne-4DW" sceneMemberID="viewController">
+                <viewController id="0gt-Ne-4DW" customClass="ProfileViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Bae-ii-f1J"/>
                         <viewControllerLayoutGuide type="bottom" id="F47-fz-3QX"/>
@@ -217,10 +217,10 @@
             </objects>
             <point key="canvasLocation" x="914" y="316"/>
         </scene>
-        <!--View Controller-->
+        <!--Notification View Controller-->
         <scene sceneID="05B-lF-FwA">
             <objects>
-                <viewController id="Y6G-yn-Bqz" sceneMemberID="viewController">
+                <viewController id="Y6G-yn-Bqz" customClass="NotificationViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ltp-uD-kOT"/>
                         <viewControllerLayoutGuide type="bottom" id="z2I-Ap-Qe5"/>
@@ -274,10 +274,10 @@
             </objects>
             <point key="canvasLocation" x="1264" y="316"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="be6-kY-0mO">
             <objects>
-                <viewController id="Tj7-cL-sE8" sceneMemberID="viewController">
+                <viewController id="Tj7-cL-sE8" customClass="HomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6lq-LT-XPb"/>
                         <viewControllerLayoutGuide type="bottom" id="Jeg-Ta-GT3"/>
@@ -358,10 +358,10 @@
             </objects>
             <point key="canvasLocation" x="1594" y="316"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="PnH-Eg-zjT">
             <objects>
-                <viewController id="dlb-bD-0NT" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="dlb-bD-0NT" customClass="SignUpViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="R30-fL-whw"/>
                         <viewControllerLayoutGuide type="bottom" id="lra-ye-529"/>
