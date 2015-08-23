@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="AccountsInfo" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="mobile" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="points" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
+    <entity name="NotificationInfo" syncable="YES">
+        <attribute name="notification" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="NotificationModel" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="place" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <elements>
-        <element name="AccountsInfo" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="AccountsInfo" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="NotificationInfo" positionX="97" positionY="0" width="128" height="58"/>
+        <element name="NotificationModel" positionX="259" positionY="9" width="128" height="88"/>
     </elements>
 </model>

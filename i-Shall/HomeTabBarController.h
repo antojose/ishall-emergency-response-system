@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface HomeTabBarController : UITabBarController
+#import "NotificationViewController.h"
+#import "Notification.h"
+@interface HomeTabBarController : UITabBarController<NotificationPageDelegate>
 
 @end

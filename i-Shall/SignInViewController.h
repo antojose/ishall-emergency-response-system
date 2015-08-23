@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "CoreDataController.h"
 
-@interface SignInViewController : UIViewController{
+@interface SignInViewController : UIViewController<UITextFieldDelegate>{
      IBOutlet UITextField *txt_username;
      IBOutlet UITextField *txt_password;
      IBOutlet UIButton *btn_signin;

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "CoreDataController.h"
 
-@interface SignUpViewController : UIViewController<UIAlertViewDelegate>{
+@interface SignUpViewController : UIViewController<UIAlertViewDelegate,UITextFieldDelegate>{
     
     IBOutlet UITextField *txt_username;
     IBOutlet UITextField *txt_password;

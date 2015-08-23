@@ -10,6 +10,7 @@
 
 @implementation SignUpViewController
 -(IBAction)signupAction:(id)sender{
+    coreDataControll = [[CoreDataController alloc] init];
     if ([coreDataControll signUpActionForUserName:txt_username.text withMobile:txt_mobile.text andPassword:txt_password.text]) {
         UIAlertView * alert=
         [[UIAlertView alloc] initWithTitle:@"iShall" message:@"Sign up success" delegate:self cancelButtonTitle:@"ok" otherButtonTitles: nil] ;
@@ -23,10 +24,18 @@
         [alert show];
     }
 }
+#pragma mark - UITextField Delegate
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+    [textField resignFirstResponder];
+    return YES;
+}
 #pragma mark - UIAlertView Delegate
-- (void)alertViewCancel:(UIAlertView *)alertView{
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
     if (alertView.tag == 123) {
         [self.navigationController popViewControllerAnimated:YES];
     }
+}
+- (void)alertViewCancel:(UIAlertView *)alertView{
+    
 }
 @end

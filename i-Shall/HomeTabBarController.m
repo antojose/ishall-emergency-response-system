@@ -9,5 +9,10 @@
 #import "HomeTabBarController.h"
 
 @implementation HomeTabBarController
-
+-(void)viewDidLoad{
+    [self.navigationItem setHidesBackButton:YES animated:YES];
+}
+-(void)changeTabbarIndexWithData:(Notification*)nofificationObject{
+    self.selectedIndex = 1;
+}
 @end

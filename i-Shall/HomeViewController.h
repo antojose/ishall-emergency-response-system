@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Notification.h"
 
 @interface HomeViewController : UIViewController
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *bottomContraint;
+@property (strong, nonatomic) IBOutlet UISearchBar *searchBar;
 
 @end

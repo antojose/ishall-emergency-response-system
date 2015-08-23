@@ -9,5 +9,13 @@
 #import "HomeViewController.h"
 
 @implementation HomeViewController
+-(void)viewDidLoad{
+    self.searchBar.hidden = YES;
+}
+- (IBAction)actionSave:(id)sender {
+    self.searchBar.hidden = NO;
+    self.bottomContraint.constant = -250;
+    [self.view layoutIfNeeded];
+}
 
 @end

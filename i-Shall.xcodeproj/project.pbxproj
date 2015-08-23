@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0680FC61B897A64007A0AC4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F0680FC51B897A64007A0AC4 /* User.m */; };
+		F0680FC91B898DC8007A0AC4 /* ProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0680FC81B898DC8007A0AC4 /* ProfileCell.m */; };
 		F0A4E6CE1B8878E10018AC5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4E6CD1B8878E10018AC5F /* main.m */; };
 		F0A4E6D11B8878E10018AC5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4E6D01B8878E10018AC5F /* AppDelegate.m */; };
 		F0A4E6D41B8878E10018AC5F /* i_Shall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0A4E6D21B8878E10018AC5F /* i_Shall.xcdatamodeld */; };
@@ -21,6 +23,8 @@
 		F0A4E7111B88A0690018AC5F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4E7101B88A0690018AC5F /* ProfileViewController.m */; };
 		F0A4E7181B88ACE80018AC5F /* HomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4E7171B88ACE80018AC5F /* HomeTabBarController.m */; };
 		F0A4E71D1B88D8DE0018AC5F /* CoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4E71C1B88D8DE0018AC5F /* CoreDataController.m */; };
+		F0A4E7211B8928300018AC5F /* NotificatinCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4E7201B8928300018AC5F /* NotificatinCell.m */; };
+		F0A4E7261B89398C0018AC5F /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4E7251B89398C0018AC5F /* Notification.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F0680FC41B897A64007A0AC4 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		F0680FC51B897A64007A0AC4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		F0680FC71B898DC8007A0AC4 /* ProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileCell.h; sourceTree = "<group>"; };
+		F0680FC81B898DC8007A0AC4 /* ProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileCell.m; sourceTree = "<group>"; };
 		F0A4E6C81B8878E10018AC5F /* i-Shall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "i-Shall.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0A4E6CC1B8878E10018AC5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0A4E6CD1B8878E10018AC5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +68,10 @@
 		F0A4E7171B88ACE80018AC5F /* HomeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTabBarController.m; sourceTree = "<group>"; };
 		F0A4E71B1B88D8DE0018AC5F /* CoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataController.h; sourceTree = "<group>"; };
 		F0A4E71C1B88D8DE0018AC5F /* CoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataController.m; sourceTree = "<group>"; };
+		F0A4E71F1B8928300018AC5F /* NotificatinCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificatinCell.h; sourceTree = "<group>"; };
+		F0A4E7201B8928300018AC5F /* NotificatinCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificatinCell.m; sourceTree = "<group>"; };
+		F0A4E7241B89398C0018AC5F /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
+		F0A4E7251B89398C0018AC5F /* Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notification.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F0680FC31B897A4B007A0AC4 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				F0680FC41B897A64007A0AC4 /* User.h */,
+				F0680FC51B897A64007A0AC4 /* User.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
 		F0A4E6BF1B8878E00018AC5F = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +186,7 @@
 		F0A4E6F71B8896680018AC5F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F0A4E71E1B8927FA0018AC5F /* TableCell */,
 				F0A4E6D81B8878E10018AC5F /* Main.storyboard */,
 				F0A4E6DD1B8878E10018AC5F /* LaunchScreen.xib */,
 			);
@@ -174,7 +196,9 @@
 		F0A4E6F81B8896710018AC5F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F0A4E6D21B8878E10018AC5F /* i_Shall.xcdatamodeld */,
+				F0680FC31B897A4B007A0AC4 /* User */,
+				F0A4E7231B89395C0018AC5F /* Notification */,
+				F0A4E7221B8939420018AC5F /* CoreDataModel */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -262,6 +286,34 @@
 				F0A4E71C1B88D8DE0018AC5F /* CoreDataController.m */,
 			);
 			name = CoreDataConterller;
+			sourceTree = "<group>";
+		};
+		F0A4E71E1B8927FA0018AC5F /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				F0A4E71F1B8928300018AC5F /* NotificatinCell.h */,
+				F0A4E7201B8928300018AC5F /* NotificatinCell.m */,
+				F0680FC71B898DC8007A0AC4 /* ProfileCell.h */,
+				F0680FC81B898DC8007A0AC4 /* ProfileCell.m */,
+			);
+			name = TableCell;
+			sourceTree = "<group>";
+		};
+		F0A4E7221B8939420018AC5F /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				F0A4E6D21B8878E10018AC5F /* i_Shall.xcdatamodeld */,
+			);
+			name = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		F0A4E7231B89395C0018AC5F /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				F0A4E7241B89398C0018AC5F /* Notification.h */,
+				F0A4E7251B89398C0018AC5F /* Notification.m */,
+			);
+			name = Notification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,12 +416,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0680FC61B897A64007A0AC4 /* User.m in Sources */,
+				F0A4E7261B89398C0018AC5F /* Notification.m in Sources */,
 				F0A4E70D1B88A0290018AC5F /* NotificationViewController.m in Sources */,
 				F0A4E6FD1B889E430018AC5F /* SignInViewController.m in Sources */,
 				F0A4E7111B88A0690018AC5F /* ProfileViewController.m in Sources */,
 				F0A4E6D11B8878E10018AC5F /* AppDelegate.m in Sources */,
 				F0A4E7061B889EE60018AC5F /* SignUpViewController.m in Sources */,
 				F0A4E6CE1B8878E10018AC5F /* main.m in Sources */,
+				F0A4E7211B8928300018AC5F /* NotificatinCell.m in Sources */,
+				F0680FC91B898DC8007A0AC4 /* ProfileCell.m in Sources */,
 				F0A4E71D1B88D8DE0018AC5F /* CoreDataController.m in Sources */,
 				F0A4E7181B88ACE80018AC5F /* HomeTabBarController.m in Sources */,
 				F0A4E7021B889E9C0018AC5F /* HomeViewController.m in Sources */,
@@ -570,6 +626,7 @@
 				F0A4E6F01B8878E10018AC5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0A4E6F11B8878E10018AC5F /* Build configuration list for PBXNativeTarget "i-ShallTests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +635,7 @@
 				F0A4E6F31B8878E10018AC5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

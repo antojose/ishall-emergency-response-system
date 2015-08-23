@@ -8,10 +8,12 @@
 
 #import "SignInViewController.h"
 #import "HomeTabBarController.h"
+#import "SignUpViewController.h"
 
 
 @implementation SignInViewController
 -(IBAction)signInAction:(id)sender{
+    coreDataControll = [[CoreDataController alloc] init];
     if ([coreDataControll signInActionForUserName:txt_username.text andPassword:txt_password.text]) {
         HomeTabBarController * tabbar = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"HomeTabbar"];
         tabbar.selectedIndex = 0;
@@ -23,5 +25,18 @@
     }
     
     
+}
+-(IBAction)signUpAction:(id)sender{
+    
+        SignUpViewController * vc = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"signup"];
+        
+        [self.navigationController pushViewController:vc animated:YES];
+    
+    
+}
+#pragma mark - UITextField Delegate
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+    [textField resignFirstResponder];
+    return YES;
 }
 @end
