@@ -486,15 +486,15 @@
                                     <constraint firstAttribute="height" constant="248" id="XJo-ee-kCu"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rc8-Tu-dgR">
-                                <rect key="frame" x="111" y="460" width="97" height="46"/>
-                                <color key="backgroundColor" red="1" green="0.18949700110000001" blue="0.092189952810000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rc8-Tu-dgR">
+                                <rect key="frame" x="111" y="444" width="97" height="70"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="V85-vS-rko"/>
-                                    <constraint firstAttribute="height" constant="46" id="VEI-VX-eFX"/>
+                                    <constraint firstAttribute="height" constant="70" id="VEI-VX-eFX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <state key="normal" title="SOS">
+                                <state key="normal" backgroundImage="sosososososo">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -511,7 +511,7 @@
                             <constraint firstItem="Jeg-Ta-GT3" firstAttribute="top" secondItem="MCd-yn-iWq" secondAttribute="bottom" id="aUp-2h-u5L"/>
                             <constraint firstAttribute="trailingMargin" secondItem="e7l-nX-ynd" secondAttribute="trailing" constant="-16" id="f4o-7w-qi5"/>
                             <constraint firstItem="MCd-yn-iWq" firstAttribute="top" secondItem="e7l-nX-ynd" secondAttribute="bottom" constant="1" id="j6g-V5-eIn"/>
-                            <constraint firstItem="Jeg-Ta-GT3" firstAttribute="top" secondItem="Rc8-Tu-dgR" secondAttribute="bottom" constant="13" id="xfi-z8-Fyq"/>
+                            <constraint firstItem="Jeg-Ta-GT3" firstAttribute="top" secondItem="Rc8-Tu-dgR" secondAttribute="bottom" constant="5" id="xfi-z8-Fyq"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="home" id="6SD-B0-faX"/>
@@ -644,6 +644,7 @@
         <image name="profile" width="32" height="32"/>
         <image name="profile1" width="128" height="128"/>
         <image name="profileBG" width="2048" height="1536"/>
+        <image name="sosososososo" width="5000" height="5000"/>
         <image name="start saving a lfe" width="500" height="500"/>
         <image name="top left" width="600" height="600"/>
         <image name="top right final" width="600" height="600"/>
